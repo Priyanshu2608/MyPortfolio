@@ -14,10 +14,18 @@ const Navbar = () => {
        className='font-serif text-xl font-semibold'>Priyanshu Vasudev</motion.h1>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a href="http://www.linkedin.com/in/priyanshu-vasudev-off"><FaLinkedin className='cursor-pointer'></FaLinkedin></a>
-       <a href='http://https://github.com/Priyanshu2608'><FaGithub className='cursor-pointer' ></FaGithub ></a> 
-        <FaTwitterSquare />
-        <FaInstagram />
+      <motion.a 
+      whileHover={{opacity:1, y:-5}}
+      href="http://www.linkedin.com/in/priyanshu-vasudev-off"><FaLinkedin className='cursor-pointer'></FaLinkedin></motion.a>
+       <motion.a
+        whileHover={{opacity:1, y:-5}}
+       href='http://https://github.com/Priyanshu2608'><FaGithub className='cursor-pointer' ></FaGithub ></motion.a> 
+       <motion.a 
+        whileHover={{opacity:1, y:-5}}
+       href="https://x.com/Priyanshu_V2608"><FaTwitterSquare className='cursor-pointer'> </FaTwitterSquare></motion.a>
+        <motion.a 
+         whileHover={{opacity:1, y:-5}}
+        href="https://www.instagram.com/priyanshu.vasudev/"><FaInstagram className='cursor-pointer'></FaInstagram></motion.a>
       </div>
     </nav>
   )
