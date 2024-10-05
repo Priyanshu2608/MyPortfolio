@@ -2,7 +2,7 @@ import React from 'react'
 import { HERO_CONTENT } from '../constants'
 import profilepic from '../assets/Profile.jpg'
 import { motion } from "framer-motion"
-import Typewriter from 'typewriter-effect/dist/core';
+
 
 const container =(delay) =>({
   hidden:{ x: -100, opacity: 0},
