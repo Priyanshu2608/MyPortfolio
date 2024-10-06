@@ -57,7 +57,7 @@ export const PROJECTS = [
     title: "Weathersphere2.0",
     image: project4,
     description:
-      "It is the next version of my weathersphere app which is made in react and also it has a suggestion sysytem for clothes on the basis of weather also it has a chatbot enclosed.",
+      "It is the next version of my weathersphere app which is made in react and also it has a suggestion system for clothes on the basis of weather also it has a chatbot enclosed.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
